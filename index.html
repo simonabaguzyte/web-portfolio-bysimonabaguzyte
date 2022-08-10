@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title> Simona Baguzyte | Front-end Developer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <title>Simona Baguzyte | Front-end Developer</title>
+        <script src="https://kit.fontawesome.com/8c2733ba7f.js" crossorigin=
+        "anonymous"></script>
     </head>
     <body>
         <header class="nav-bar">
@@ -20,24 +22,43 @@
             <!-- <a class="cta" href="#"><button>Dark/light mode switcher</button></a> -->
         </header>
 
-        <div class="container">
+        <ul class="scroll-navigation">
+            <li class="selected"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <main>
             <section>
-                <header id="site-header">
+                <header class="site-header">
                     <h1>bySIMONA</h1><br>
                     <h1 class="reversed-text">BAGUZYTE</h1>
                 </header>
                 <br>
                 <br>
                 <p class="home-description">Self-taught front-end web developer,<br>
-                    with a serious passion for creating<br>intuitive, dynamic 
+                    with a serious passion for creating<br>intuitive and dynamic 
                     user experience.</p>
+
+                <div class="mouse_scroll">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <div>
+                        <span class="m_scroll_arrows one"></span>
+                        <span class="m_scroll_arrows two"></span>
+                        <span class="m_scroll_arrows three"></span>
+                    </div>
+                </div>
             </section>
+
             <section>
                 <header class="logo">
                     <h1>bySIMONA</h1><br>
                     <h1 class="reversed-text">BAGUZYTE</h1>
                 </header>
-                <div id="about-department">
+                <div class="title-about-me">
                     <h1>About me</h1>
                 </div>
                 <br>
@@ -46,14 +67,15 @@
                 <div class="about-info">
                     <p class="about-description"> I am a 2<sup>nd</sup> year student of 
                         Software Engineering located in<br>Vilnius, Lithuania.<br><br>I am
-                         known as a reliable employee with great communication<br>and 
-                         learning skills, as well as high attention to detail, and strong<br>
-                         work ethic.<br><br>Interested in the entire front-end spectrum and 
-                         working on<br>an actual projects with positive and ambitious team 
-                         members.</p>
+                        known as a reliable employee with great communication<br>and 
+                        learning skills, as well as high attention to detail, and strong<br>
+                        work ethic.<br><br>Interested in the entire front-end spectrum and 
+                        working on<br>projects with positive and ambitious team 
+                        members.</p>
                     <img src="images/temp.jpeg" alt="Photo of me" width="400" height="auto">
                 </div>
             </section>
+
             <section>
                 <header class="logo">
                     <h1>bySIMONA</h1><br>
@@ -61,25 +83,27 @@
                 </header>
                 <h1>Projects</h1>
             </section>
+
             <section>
                 <header class="logo">
                     <h1>bySIMONA</h1><br>
                     <h1 class="reversed-text">BAGUZYTE</h1>
                 </header>
                 <h1>Contact</h1>
-                <div id="footer">
+                <div class="footer">
                     <div class="copyright">
                         <p>&copy; 2022, Simona Baguzyte</p>
                     </div>
                 </div>
             </section>
-        </div>
+        </main>
 
-        
+    <div>
+        <a class="go-to-top-button" href="#"> <i class="fa-solid fa-circle-up"></i></a>
+    </div>
 
 
-        
-
-        <script src="main.js"></script>
+    
     </body>
+    <script src="main.js"></script>
 </html>
